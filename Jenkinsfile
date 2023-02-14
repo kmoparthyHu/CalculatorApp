@@ -9,7 +9,7 @@ pipeline {
 
     stage('Restore Packages') {
       steps {
-        bat 'dotnet restore ${workspace}\\\\CalculatorApp\\\\CalculatorApp.sln'
+        bat 'dotnet restore CalculatorApp.sln'
       }
     }
 
