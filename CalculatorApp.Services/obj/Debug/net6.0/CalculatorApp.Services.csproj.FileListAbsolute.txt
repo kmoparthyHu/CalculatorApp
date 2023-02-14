@@ -1,0 +1,12 @@
+C:\Users\Administrator\Documents\CalculatorApp\CalculatorApp.Services\bin\Debug\net6.0\CalculatorApp.Services.deps.json
+C:\Users\Administrator\Documents\CalculatorApp\CalculatorApp.Services\bin\Debug\net6.0\CalculatorApp.Services.dll
+C:\Users\Administrator\Documents\CalculatorApp\CalculatorApp.Services\bin\Debug\net6.0\CalculatorApp.Services.pdb
+C:\Users\Administrator\Documents\CalculatorApp\CalculatorApp.Services\obj\Debug\net6.0\CalculatorApp.Services.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\CalculatorApp\CalculatorApp.Services\obj\Debug\net6.0\CalculatorApp.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\CalculatorApp\CalculatorApp.Services\obj\Debug\net6.0\CalculatorApp.Services.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\CalculatorApp\CalculatorApp.Services\obj\Debug\net6.0\CalculatorApp.Services.AssemblyInfo.cs
+C:\Users\Administrator\Documents\CalculatorApp\CalculatorApp.Services\obj\Debug\net6.0\CalculatorApp.Services.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\CalculatorApp\CalculatorApp.Services\obj\Debug\net6.0\CalculatorApp.Services.dll
+C:\Users\Administrator\Documents\CalculatorApp\CalculatorApp.Services\obj\Debug\net6.0\refint\CalculatorApp.Services.dll
+C:\Users\Administrator\Documents\CalculatorApp\CalculatorApp.Services\obj\Debug\net6.0\CalculatorApp.Services.pdb
+C:\Users\Administrator\Documents\CalculatorApp\CalculatorApp.Services\obj\Debug\net6.0\ref\CalculatorApp.Services.dll

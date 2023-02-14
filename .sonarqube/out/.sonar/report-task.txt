@@ -1,0 +1,6 @@
+projectKey=CalcApp
+serverUrl=http://localhost:9000
+serverVersion=9.8.0.63668
+dashboardUrl=http://localhost:9000/dashboard?id=CalcApp
+ceTaskId=AYYvCglEZZceE1C8pEpF
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYYvCglEZZceE1C8pEpF
