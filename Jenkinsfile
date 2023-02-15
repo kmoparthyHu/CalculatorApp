@@ -33,7 +33,7 @@ pipeline {
 
     stage('SonarScanner End') {
       steps {
-        bat 'dotnet sonarscanner end /d:sonar.login="sqp_5f07446323d38f17c77b516c29553923beb8acb9"'
+        bat 'dotnet C:\\\\Users\\\\Administrator\\\\.dotnet\\\\tools\\\\.store\\\\dotnet-sonarscanner\\\\5.11.0\\\\dotnet-sonarscanner\\\\5.11.0\\\\tools\\\\netcoreapp3.0\\\\any\\\\SonarScanner.MSBuild.dll end /d:sonar.login="sqp_58169d019975d4cff2023eef1b887b009eda4600"'
       }
     }
 
