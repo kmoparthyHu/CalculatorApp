@@ -15,13 +15,26 @@ pipeline {
 
     stage('Clean the build') {
       steps {
-        bat 'msbuild.exe ${workspace}\\\\CalculatorApp\\\\CalculatorApp.sln" /nologo /nr:false /p:platform=\\"x64\\" /p:configuration=\\"release\\" /t:clean'
+        bat 'dotnet clean'
       }
     }
 
-    stage('Build') {
+    stage('SonarScanner Begin') {
       steps {
         bat 'msbuild.exe ${workspace}\\\\CalculatorApp\\\\CalculatorApp.sln /nologo /nr:false  /p:platform=\\"x64\\" /p:configuration=\\"release\\" /p:PackageCertificateKeyFile=<path-to-certificate-file>.pfx /t:clean;restore;rebuild'
+        bat 'dotnet-sonarqube-example-main>dotnet sonarscanner begin /k:"sonarqube-net-sample" /d:sonar.host.url="http://localhost:9000"  /d:sonar.login="sqp_5f07446323d38f17c77b516c29553923beb8acb9"'
+      }
+    }
+
+    stage('Build the code') {
+      steps {
+        bat 'dotnet build'
+      }
+    }
+
+    stage('SonarScanner End') {
+      steps {
+        bat 'dotnet sonarscanner end /d:sonar.login="sqp_5f07446323d38f17c77b516c29553923beb8acb9"'
       }
     }
 
