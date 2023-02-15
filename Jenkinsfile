@@ -21,7 +21,7 @@ pipeline {
 
     stage('SonarScanner Begin') {
       steps {
-        bat 'dotnet sonarscanner begin /k:"CalculatorApp" /d:sonar.host.url="http://localhost:9000"  /d:sonar.login="sqp_58169d019975d4cff2023eef1b887b009eda4600"'
+        bat 'dotnet sonarscanner begin /k:"CalculatorApp" /d:sonar.login="sqp_58169d019975d4cff2023eef1b887b009eda4600"'
       }
     }
 
