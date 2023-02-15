@@ -21,7 +21,7 @@ pipeline {
 
     stage('SonarScanner Begin') {
       steps {
-        bat 'dotnet-sonarqube-example-main>dotnet sonarscanner begin /k:"sonarqube-net-sample" /d:sonar.host.url="http://localhost:9000"  /d:sonar.login="sqp_5f07446323d38f17c77b516c29553923beb8acb9"'
+        bat 'dotnet sonarscanner begin /k:"CalculatorApp" /d:sonar.host.url="http://localhost:9000"  /d:sonar.login="sqp_58169d019975d4cff2023eef1b887b009eda4600"'
       }
     }
 
